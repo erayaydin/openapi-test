@@ -11,7 +11,7 @@ info:
 tags:
   - name: Events
     description: |
-      Retrieve or update information about individual events using the event's request ID.
+      Another 1 Retrieve or update information about individual events using the event's request ID.
   - name: Event Search
     description: |
       Search for events matching one or more filters.
