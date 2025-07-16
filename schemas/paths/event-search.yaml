@@ -5,9 +5,11 @@ get:
   summary: Get events via search
   description: |
     Search for identification events, including Smart Signals, using multiple filtering criteria. If you don't provide `start` or `end` parameters, the default search range is the last 7 days.
-    
-    Please note that events include mobile signals (e.g. `rootApps`) even if the request originated from a non-mobile platform. We recommend you **ignore** mobile signals for such requests.
   parameters:
+    - name: version
+      in: query
+      schema:
+        type: string
     - name: limit
       in: query
       required: true
@@ -34,7 +36,7 @@ get:
       in: query
       schema:
         type: string
-      description: | 
+      description: |
         Unique [visitor identifier](https://dev.fingerprint.com/reference/get-function#visitorid) issued by Fingerprint Pro.
         Filter for events matching this `visitor_id`.
     - name: bot
