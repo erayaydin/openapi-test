@@ -1,5 +1,6 @@
 {
   "error": {
+    "update": 102,
     "code": "RequestCannotBeParsed",
     "message": "invalid bot type"
   }
