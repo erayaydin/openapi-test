@@ -130,7 +130,8 @@
     }
   },
   "proxy": {
-    "result": false
+    "result": false,
+    "confidence": "high"
   },
   "tampering": {
     "result": false,
@@ -245,5 +246,6 @@
   },
   "mitmAttack": {
     "result": false
-  }
+  },
+  "replayed": false
 }
